@@ -32,7 +32,8 @@ var patch = {
   ],
 
   libsFiles: [
-    './dev/libs/**/*.*'
+    './dev/libs/**/*.*',
+    './node_modules/jquery/dist/jquery.min.js'
   ],
 
   out: [

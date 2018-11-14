@@ -23,5 +23,7 @@
     "gulp-sourcemaps": "^2.6.4",
     "smart-grid": "^2.1.2"
   },
-  "dependencies": {}
+  "dependencies": {
+    "jquery": "^3.3.1"
+  }
 }

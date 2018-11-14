@@ -4,7 +4,7 @@ header.main-header
       a.logo(href="#")
         img(src="./img/logo.svg" alt="logo")
       nav.page-nav
-        .page-nav-large
+        .page-nav__large
           ul
             li.page-nav__item
               a(href="#") О бюро
@@ -16,26 +16,22 @@ header.main-header
               a(href="#") Собственникам
             li.page-nav__item
               a(href="#") Контакты
-          .user-block
-            a(href="#")
-              span.lang RU/
-            a(href="#")
-              span.lang EN
+          .lang-block
+            a.lang.active(href="#") RU
+            a.lang(href="#") EN
+        .page-nav__small
+          .lang-block
+            a.lang.active(href="#") RU
+            a.lang(href="#") EN
+          ul
+            li.page-nav__item 
+              a(href="#") О бюро
+            li.page-nav__item 
+              a(href="#") Банкам
+            li.page-nav__item 
+              a(href="#") Компаниям
+            li.page-nav__item 
+              a(href="#") Собственникам
+            li.page-nav__item 
+              a(href="#") Контакты
         .page-nav__toggle
-        .page-nav-small
-          ul
-            li.page-nav__item 
-              a(href="#") О бюро
-            li.page-nav__item 
-              a(href="#") Банкам
-            li.page-nav__item 
-              a(href="#") Компаниям
-            li.page-nav__item 
-              a(href="#") Собственникам
-            li.page-nav__item 
-              a(href="#") Контакты
-          .user-block
-            a(href="#")
-              span.lang RU/
-            a(href="#")
-              span.lang EN
