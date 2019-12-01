@@ -435,7 +435,6 @@ a:activ a:hover {
   right: -30px;
   background: url('../img/bquo.png');
   -webkit-transform: rotate(-180deg);
-  -ms-transform: rotate(-180deg);
   transform: rotate(-180deg);
 }
 
